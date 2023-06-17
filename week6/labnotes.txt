@@ -1,0 +1,41 @@
+data structures are mechanisms to store data
+vectors are dynamic arrays that double when the array is full
+data structures process data
+for vectors: push pop peek
+vectors have a lot of memory that your often using
+linked list is a bunch of nodess that have a value and a pointer to the next node
+they have a head, the first element and a tail
+everything is accessed starting from the head
+in main we have a pointer that stores the address of the head
+node struct has an int value and a node pionter to the next node
+a forward declaration :
+typedef struct node NODE;
+the end of the list is NULL?
+have a functino called make node 
+NOde* MakeNode(int item){
+Node* new = (Node*)malloc(sizeof(NODE));
+if (new == NULL){
+	return NULL;
+}
+new->data = item;
+new-> next = NULL;
+return new;
+}
+grade-> next = makeNode(98);
+loop thru array until you see NULL
+void InsertTail (Node* pNode, int item){
+	Node* temp = pNode
+if temp==NuULL{
+pnode = MakeNode(item);
+return;
+}
+while( temp->next != NULL){
+	temp = temp->next;
+}
+temp->next = makeNode(item);
+return;
+
+}
+
+
+
