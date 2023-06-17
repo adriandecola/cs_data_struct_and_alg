@@ -1,0 +1,24 @@
+vim editing 
+Use vim to edit the starter file to answer the questions in the README.md file. 
+1. to open the file, type ls to make sure you're in the right directory. If you are, type: 
+2. vim filename, which in this case will be vim README.md  . Remember that once you have typed a few letters of README.md, you can press tab to have the file name auto-complete. 
+3. Once you're in vim, you start in view mode, where you can move around the file but can't edit it. Move the cursor up, down, left, and right with these key presses**: 
+
+h moves the cursor one character to the left.
+j moves the cursor down one line.
+k moves the cursor up one line.
+l moves the cursor one character to the right.
+0 moves the cursor to the beginning of the line.
+$ moves the cursor to the end of the line.
+w move forward one word.
+b move backward one word.
+G move to the end of the file.
+gg move to the beginning of the file.
+`. move to the last edit.
+4. One your cursor is where you want it, enter edit mode by typing i and then enter. Now type what you want!
+5. To exit edit mode and go back to move mode, hit the Esc key and you're free to move around again with the above commands. 
+6. When you're done editing the file, Esc to exit to move mode, and then type colon-w-q, that is: :wq ****, and then press Return
+
+There are so very, very many good vim tutorials out there. There's a basic one here Links to an external site., and here Links to an external site., and a video one here Links to an external site. and another one here Links to an external site., this one's an interactive game Links to an external site., and there's even a built-in tutorial that you can run by typing in vimtutor to your terminal and pressing Return. These are basics tutorials - vim is an incredibly, incredibly powerful tool, and you can go quite deep into it. If you want to see some MIT students really showing off what vim can do to a beginner's class, check out The Missing Semester Links to an external site.. 
+You need to know at least basic vim commands, for this course and for your career. 
+****Why does this work? What's going on? Ask me!
